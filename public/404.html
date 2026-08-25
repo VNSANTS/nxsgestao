@@ -9,9 +9,9 @@
       // o Pages serve este arquivo 404.html. Aqui a gente guarda o caminho
       // pedido e redireciona pra raiz, onde o React Router assume de novo
       // e mostra a rota certa.
-      var caminho = location.pathname.replace('/Nexus-Finance', '') + location.search + location.hash
+      var caminho = location.pathname.replace('/nxsgestao', '') + location.search + location.hash
       sessionStorage.setItem('redirecionarPara', caminho)
-      location.replace('/Nexus-Finance/')
+      location.replace('/nxsgestao/')
     </script>
   </head>
   <body></body>

@@ -9,7 +9,7 @@ import './styles/globals.css'
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <ErrorBoundary>
-      <BrowserRouter basename="/Nexus-Finance/">
+      <BrowserRouter basename="/nxsgestao/">
         {/* Uma instância única do progresso para o app inteiro. */}
         <ProgressProvider>
           <App />

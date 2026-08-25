@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
-  base: '/Nexus-Finance/',
+  base: '/nxsgestao/',
   // Sem este alias o `@/...` só funcionava no editor (via tsconfig paths):
   // `vite dev` e `vite build` não resolviam nenhum import e o projeto não subia.
   resolve: {
@@ -54,8 +54,8 @@ export default defineConfig({
         ],
       },
       manifest: {
-        id: '/Nexus-Finance/',
-        scope: '/Nexus-Finance/',
+        id: '/nxsgestao/',
+        scope: '/nxsgestao/',
         name: 'Nexus Finance',
         short_name: 'Nexus',
         description: 'Do seu primeiro real ao seu primeiro milhão — aprenda, acompanhe e invista.',
@@ -63,7 +63,7 @@ export default defineConfig({
         background_color: '#070B16',
         display: 'standalone',
         orientation: 'portrait',
-        start_url: '/Nexus-Finance/',
+        start_url: '/nxsgestao/',
         icons: [
           { src: 'icon-192.png', sizes: '192x192', type: 'image/png', purpose: 'any' },
           { src: 'icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'any' },
